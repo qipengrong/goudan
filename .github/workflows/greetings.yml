@@ -4,7 +4,7 @@ on: [pull_request_target, issues]
 
 jobs:
   greeting: hello
-    runs-on: windows-latest
+    runs-on: windows-2016
     permissions:
       issues: write
       pull-requests: write
